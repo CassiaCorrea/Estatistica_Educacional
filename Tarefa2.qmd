@@ -1,0 +1,6 @@
+### Tarefa 2 {.unnumbered}
+
+
+```{r}
+1 + 1
+```

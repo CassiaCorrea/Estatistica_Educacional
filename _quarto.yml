@@ -1,0 +1,41 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Estatistica Educacional"
+  subtitle: "**Héliton Tavares**"
+  author:
+   - name: "**Cássia Barbosa Corrêa**"
+     url: "https://github.com/CassiaCorrea"
+     affiliation:
+        - UINVERSIDADE FEDERAL DO PARÁ
+   - name: "**Hugo Leonardo Faro**"
+     url: "https://github.com/LeoFaro"
+     affiliation:
+        - FACULDADE DE ESTATÍSTICA
+  date: "09/12/2024"
+  chapters:
+    - index.qmd
+    - Tarefa1.qmd
+    - Tarefa2.qmd
+  repo-subdir: book
+  repo-branch: main
+  repo-actions: [edit, issue, source]
+  downloads: [pdf]
+  page-navigation: true
+
+bibliography: references.bib
+
+format:
+  html:
+    number-sections: true
+    df-print: paged
+    theme:
+      light: [blue,custom.scss]
+  pdf:
+    documentclass: scrreprt
+    toc: false
+execute:
+  echo: true
+lang: pt
