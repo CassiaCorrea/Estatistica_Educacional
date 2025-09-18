@@ -1,2 +1,2 @@
 # Estatistica_Educacional
-Taefas da disciplina Estatistica Educacional
+Tarefas da disciplina Estatistica Educacional
